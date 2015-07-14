@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "er1_motor_driver")
+set(er1_motor_driver_MAINTAINER "Arvind Pereira <arvind.pereira@gmail.com>")
+set(er1_motor_driver_DEPRECATED "")
+set(er1_motor_driver_VERSION "0.0.0")
+set(er1_motor_driver_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "std_msgs")
+set(er1_motor_driver_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "std_msgs")
+set(er1_motor_driver_BUILDTOOL_DEPENDS "catkin")
