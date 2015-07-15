@@ -46,7 +46,9 @@ CMAKE_BINARY_DIR = /home/arvind/clover_hack_day/er1_robot/build
 include er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py.dir/progress.make
 
 er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/_Motors.py
+er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/_AddTwoInts.py
 er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/__init__.py
+er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/__init__.py
 
 /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/_Motors.py: /opt/ros/jade/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/_Motors.py: /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg/Motors.msg
@@ -54,15 +56,31 @@ er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py: /home/arvind/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG er1_motor_driver/Motors"
 	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg/Motors.msg -Ier1_motor_driver:/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -p er1_motor_driver -o /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg
 
+/home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/_AddTwoInts.py: /opt/ros/jade/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/_AddTwoInts.py: /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/arvind/clover_hack_day/er1_robot/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV er1_motor_driver/AddTwoInts"
+	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv -Ier1_motor_driver:/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -p er1_motor_driver -o /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv
+
 /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/__init__.py: /opt/ros/jade/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/__init__.py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/_Motors.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/arvind/clover_hack_day/er1_robot/build/CMakeFiles $(CMAKE_PROGRESS_2)
+/home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/__init__.py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/_AddTwoInts.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/arvind/clover_hack_day/er1_robot/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for er1_motor_driver"
 	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg --initpy
 
+/home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/__init__.py: /opt/ros/jade/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/__init__.py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/_Motors.py
+/home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/__init__.py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/_AddTwoInts.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/arvind/clover_hack_day/er1_robot/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python srv __init__.py for er1_motor_driver"
+	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv --initpy
+
 er1_motor_driver_generate_messages_py: er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py
 er1_motor_driver_generate_messages_py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/_Motors.py
+er1_motor_driver_generate_messages_py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/_AddTwoInts.py
 er1_motor_driver_generate_messages_py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/msg/__init__.py
+er1_motor_driver_generate_messages_py: /home/arvind/clover_hack_day/er1_robot/devel/lib/python2.7/dist-packages/er1_motor_driver/srv/__init__.py
 er1_motor_driver_generate_messages_py: er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py.dir/build.make
 .PHONY : er1_motor_driver_generate_messages_py
 

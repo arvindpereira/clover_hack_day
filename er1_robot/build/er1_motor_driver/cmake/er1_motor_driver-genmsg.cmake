@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "er1_motor_driver: 1 messages, 0 services")
+message(STATUS "er1_motor_driver: 1 messages, 1 services")
 
 set(MSG_I_FLAGS "-Ier1_motor_driver:/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg;-Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg")
 
@@ -21,6 +21,11 @@ add_custom_target(_er1_motor_driver_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "er1_motor_driver" "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg/Motors.msg" ""
 )
 
+get_filename_component(_filename "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv" NAME_WE)
+add_custom_target(_er1_motor_driver_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "er1_motor_driver" "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;genpy
 #
@@ -35,6 +40,12 @@ _generate_msg_cpp(er1_motor_driver
 )
 
 ### Generating Services
+_generate_srv_cpp(er1_motor_driver
+  "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/er1_motor_driver
+)
 
 ### Generating Module File
 _generate_module_cpp(er1_motor_driver
@@ -49,6 +60,8 @@ add_dependencies(er1_motor_driver_generate_messages er1_motor_driver_generate_me
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg/Motors.msg" NAME_WE)
+add_dependencies(er1_motor_driver_generate_messages_cpp _er1_motor_driver_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(er1_motor_driver_generate_messages_cpp _er1_motor_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -68,6 +81,12 @@ _generate_msg_eus(er1_motor_driver
 )
 
 ### Generating Services
+_generate_srv_eus(er1_motor_driver
+  "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/er1_motor_driver
+)
 
 ### Generating Module File
 _generate_module_eus(er1_motor_driver
@@ -82,6 +101,8 @@ add_dependencies(er1_motor_driver_generate_messages er1_motor_driver_generate_me
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg/Motors.msg" NAME_WE)
+add_dependencies(er1_motor_driver_generate_messages_eus _er1_motor_driver_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(er1_motor_driver_generate_messages_eus _er1_motor_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -101,6 +122,12 @@ _generate_msg_lisp(er1_motor_driver
 )
 
 ### Generating Services
+_generate_srv_lisp(er1_motor_driver
+  "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/er1_motor_driver
+)
 
 ### Generating Module File
 _generate_module_lisp(er1_motor_driver
@@ -115,6 +142,8 @@ add_dependencies(er1_motor_driver_generate_messages er1_motor_driver_generate_me
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg/Motors.msg" NAME_WE)
+add_dependencies(er1_motor_driver_generate_messages_lisp _er1_motor_driver_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(er1_motor_driver_generate_messages_lisp _er1_motor_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -134,6 +163,12 @@ _generate_msg_py(er1_motor_driver
 )
 
 ### Generating Services
+_generate_srv_py(er1_motor_driver
+  "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/er1_motor_driver
+)
 
 ### Generating Module File
 _generate_module_py(er1_motor_driver
@@ -148,6 +183,8 @@ add_dependencies(er1_motor_driver_generate_messages er1_motor_driver_generate_me
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg/Motors.msg" NAME_WE)
+add_dependencies(er1_motor_driver_generate_messages_py _er1_motor_driver_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(er1_motor_driver_generate_messages_py _er1_motor_driver_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

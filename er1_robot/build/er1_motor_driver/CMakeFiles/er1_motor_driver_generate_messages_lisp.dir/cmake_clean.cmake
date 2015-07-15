@@ -1,6 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/er1_motor_driver_generate_messages_lisp"
   "/home/arvind/clover_hack_day/er1_robot/devel/share/common-lisp/ros/er1_motor_driver/msg/Motors.lisp"
+  "/home/arvind/clover_hack_day/er1_robot/devel/share/common-lisp/ros/er1_motor_driver/srv/AddTwoInts.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

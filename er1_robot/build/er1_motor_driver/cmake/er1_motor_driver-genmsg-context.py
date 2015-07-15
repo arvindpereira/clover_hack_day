@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg/Motors.msg"
-services_str = ""
+services_str = "/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv"
 pkg_name = "er1_motor_driver"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;genpy"

@@ -46,6 +46,7 @@ CMAKE_BINARY_DIR = /home/arvind/clover_hack_day/er1_robot/build
 include er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus.dir/progress.make
 
 er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus: /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/msg/Motors.l
+er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus: /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/srv/AddTwoInts.l
 er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus: /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/manifest.l
 
 /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/msg/Motors.l: /opt/ros/jade/share/geneus/cmake/../../../lib/geneus/gen_eus.py
@@ -54,13 +55,20 @@ er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus: /home/arvind
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating EusLisp code from er1_motor_driver/Motors.msg"
 	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg/Motors.msg -Ier1_motor_driver:/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -p er1_motor_driver -o /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/msg
 
-/home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/manifest.l: /opt/ros/jade/share/geneus/cmake/../../../lib/geneus/gen_eus.py
+/home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/srv/AddTwoInts.l: /opt/ros/jade/share/geneus/cmake/../../../lib/geneus/gen_eus.py
+/home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/srv/AddTwoInts.l: /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/arvind/clover_hack_day/er1_robot/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating EusLisp code from er1_motor_driver/AddTwoInts.srv"
+	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/srv/AddTwoInts.srv -Ier1_motor_driver:/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/msg -Istd_msgs:/opt/ros/jade/share/std_msgs/cmake/../msg -p er1_motor_driver -o /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/srv
+
+/home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/manifest.l: /opt/ros/jade/share/geneus/cmake/../../../lib/geneus/gen_eus.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/arvind/clover_hack_day/er1_robot/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating EusLisp manifest code for er1_motor_driver"
 	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/jade/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver er1_motor_driver std_msgs
 
 er1_motor_driver_generate_messages_eus: er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus
 er1_motor_driver_generate_messages_eus: /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/msg/Motors.l
+er1_motor_driver_generate_messages_eus: /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/srv/AddTwoInts.l
 er1_motor_driver_generate_messages_eus: /home/arvind/clover_hack_day/er1_robot/devel/share/roseus/ros/er1_motor_driver/manifest.l
 er1_motor_driver_generate_messages_eus: er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus.dir/build.make
 .PHONY : er1_motor_driver_generate_messages_eus

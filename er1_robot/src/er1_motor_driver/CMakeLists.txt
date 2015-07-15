@@ -54,11 +54,10 @@ find_package(Boost REQUIRED COMPONENTS system)
  )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+ add_service_files(
+   FILES
+   AddTwoInts.srv
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -106,7 +105,24 @@ include_directories(
 # )
 
 ## Declare a cpp executable
-# add_executable(er1_motor_driver_node src/er1_motor_driver_node.cpp)
+ add_executable(er1_motor_driver_node src/motor_listener.cpp)
+ target_link_libraries(er1_motor_driver_node ${catkin_LIBRARIES})
+ add_dependencies(er1_motor_driver_node er1_motor_driver_generate_messages_cpp)
+
+ add_executable(er1_motor_sender_node
+ src/send_cmd.cpp)
+ target_link_libraries(er1_motor_sender_node ${catkin_LIBRARIES})
+ add_dependencies(er1_motor_sender_node er1_motor_driver_generate_messages_cpp)
+
+ # Service
+ add_executable(add_two_ints_server src/add_two_ints_server.cpp)
+ target_link_libraries(add_two_ints_server ${catkin_LIBRARIES})
+ add_dependencies(add_two_ints_server er1_motor_driver_generate_messages_cpp)
+
+ add_executable(add_two_ints_client src/add_two_ints_client.cpp)
+ target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
+ add_dependencies(add_two_ints_client er1_motor_driver_generate_messages_cpp)
+
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes

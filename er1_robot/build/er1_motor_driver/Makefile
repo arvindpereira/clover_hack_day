@@ -150,6 +150,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_AddTwoInts.dir/rule:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_AddTwoInts.dir/rule
+.PHONY : er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_AddTwoInts.dir/rule
+
+# Convenience name for target.
+_er1_motor_driver_generate_messages_check_deps_AddTwoInts: er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_AddTwoInts.dir/rule
+.PHONY : _er1_motor_driver_generate_messages_check_deps_AddTwoInts
+
+# fast build rule for target.
+_er1_motor_driver_generate_messages_check_deps_AddTwoInts/fast:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_AddTwoInts.dir/build.make er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_AddTwoInts.dir/build
+.PHONY : _er1_motor_driver_generate_messages_check_deps_AddTwoInts/fast
+
+# Convenience name for target.
 er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_Motors.dir/rule:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_Motors.dir/rule
 .PHONY : er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_Motors.dir/rule
@@ -162,6 +176,34 @@ _er1_motor_driver_generate_messages_check_deps_Motors: er1_motor_driver/CMakeFil
 _er1_motor_driver_generate_messages_check_deps_Motors/fast:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_Motors.dir/build.make er1_motor_driver/CMakeFiles/_er1_motor_driver_generate_messages_check_deps_Motors.dir/build
 .PHONY : _er1_motor_driver_generate_messages_check_deps_Motors/fast
+
+# Convenience name for target.
+er1_motor_driver/CMakeFiles/add_two_ints_client.dir/rule:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/add_two_ints_client.dir/rule
+.PHONY : er1_motor_driver/CMakeFiles/add_two_ints_client.dir/rule
+
+# Convenience name for target.
+add_two_ints_client: er1_motor_driver/CMakeFiles/add_two_ints_client.dir/rule
+.PHONY : add_two_ints_client
+
+# fast build rule for target.
+add_two_ints_client/fast:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/add_two_ints_client.dir/build.make er1_motor_driver/CMakeFiles/add_two_ints_client.dir/build
+.PHONY : add_two_ints_client/fast
+
+# Convenience name for target.
+er1_motor_driver/CMakeFiles/add_two_ints_server.dir/rule:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/add_two_ints_server.dir/rule
+.PHONY : er1_motor_driver/CMakeFiles/add_two_ints_server.dir/rule
+
+# Convenience name for target.
+add_two_ints_server: er1_motor_driver/CMakeFiles/add_two_ints_server.dir/rule
+.PHONY : add_two_ints_server
+
+# fast build rule for target.
+add_two_ints_server/fast:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/add_two_ints_server.dir/build.make er1_motor_driver/CMakeFiles/add_two_ints_server.dir/build
+.PHONY : add_two_ints_server/fast
 
 # Convenience name for target.
 er1_motor_driver/CMakeFiles/er1_motor_driver_gencpp.dir/rule:
@@ -288,6 +330,34 @@ er1_motor_driver_genpy: er1_motor_driver/CMakeFiles/er1_motor_driver_genpy.dir/r
 er1_motor_driver_genpy/fast:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_genpy.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_genpy.dir/build
 .PHONY : er1_motor_driver_genpy/fast
+
+# Convenience name for target.
+er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/rule:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/rule
+.PHONY : er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/rule
+
+# Convenience name for target.
+er1_motor_driver_node: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/rule
+.PHONY : er1_motor_driver_node
+
+# fast build rule for target.
+er1_motor_driver_node/fast:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build
+.PHONY : er1_motor_driver_node/fast
+
+# Convenience name for target.
+er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/rule:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/rule
+.PHONY : er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/rule
+
+# Convenience name for target.
+er1_motor_sender_node: er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/rule
+.PHONY : er1_motor_sender_node
+
+# fast build rule for target.
+er1_motor_sender_node/fast:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/build
+.PHONY : er1_motor_sender_node/fast
 
 # Convenience name for target.
 er1_motor_driver/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
@@ -457,13 +527,112 @@ std_msgs_generate_messages_py/fast:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/std_msgs_generate_messages_py.dir/build.make er1_motor_driver/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.o
+
+# target to build an object file
+src/add_two_ints_client.cpp.o:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/add_two_ints_client.dir/build.make er1_motor_driver/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.cpp.o
+
+src/add_two_ints_client.i: src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.i
+
+# target to preprocess a source file
+src/add_two_ints_client.cpp.i:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/add_two_ints_client.dir/build.make er1_motor_driver/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.cpp.i
+
+src/add_two_ints_client.s: src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.s
+
+# target to generate assembly for a file
+src/add_two_ints_client.cpp.s:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/add_two_ints_client.dir/build.make er1_motor_driver/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.cpp.s
+
+src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.o
+
+# target to build an object file
+src/add_two_ints_server.cpp.o:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/add_two_ints_server.dir/build.make er1_motor_driver/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.cpp.o
+
+src/add_two_ints_server.i: src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.i
+
+# target to preprocess a source file
+src/add_two_ints_server.cpp.i:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/add_two_ints_server.dir/build.make er1_motor_driver/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.cpp.i
+
+src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.s
+
+# target to generate assembly for a file
+src/add_two_ints_server.cpp.s:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/add_two_ints_server.dir/build.make er1_motor_driver/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.cpp.s
+
+src/motor_listener.o: src/motor_listener.cpp.o
+.PHONY : src/motor_listener.o
+
+# target to build an object file
+src/motor_listener.cpp.o:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o
+.PHONY : src/motor_listener.cpp.o
+
+src/motor_listener.i: src/motor_listener.cpp.i
+.PHONY : src/motor_listener.i
+
+# target to preprocess a source file
+src/motor_listener.cpp.i:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.i
+.PHONY : src/motor_listener.cpp.i
+
+src/motor_listener.s: src/motor_listener.cpp.s
+.PHONY : src/motor_listener.s
+
+# target to generate assembly for a file
+src/motor_listener.cpp.s:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.s
+.PHONY : src/motor_listener.cpp.s
+
+src/send_cmd.o: src/send_cmd.cpp.o
+.PHONY : src/send_cmd.o
+
+# target to build an object file
+src/send_cmd.cpp.o:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/src/send_cmd.cpp.o
+.PHONY : src/send_cmd.cpp.o
+
+src/send_cmd.i: src/send_cmd.cpp.i
+.PHONY : src/send_cmd.i
+
+# target to preprocess a source file
+src/send_cmd.cpp.i:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/src/send_cmd.cpp.i
+.PHONY : src/send_cmd.cpp.i
+
+src/send_cmd.s: src/send_cmd.cpp.s
+.PHONY : src/send_cmd.s
+
+# target to generate assembly for a file
+src/send_cmd.cpp.s:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_sender_node.dir/src/send_cmd.cpp.s
+.PHONY : src/send_cmd.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... _er1_motor_driver_generate_messages_check_deps_AddTwoInts"
 	@echo "... _er1_motor_driver_generate_messages_check_deps_Motors"
+	@echo "... add_two_ints_client"
+	@echo "... add_two_ints_server"
 	@echo "... edit_cache"
 	@echo "... er1_motor_driver_gencpp"
 	@echo "... er1_motor_driver_generate_messages"
@@ -474,6 +643,8 @@ help:
 	@echo "... er1_motor_driver_geneus"
 	@echo "... er1_motor_driver_genlisp"
 	@echo "... er1_motor_driver_genpy"
+	@echo "... er1_motor_driver_node"
+	@echo "... er1_motor_sender_node"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
@@ -492,6 +663,18 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
+	@echo "... src/add_two_ints_client.o"
+	@echo "... src/add_two_ints_client.i"
+	@echo "... src/add_two_ints_client.s"
+	@echo "... src/add_two_ints_server.o"
+	@echo "... src/add_two_ints_server.i"
+	@echo "... src/add_two_ints_server.s"
+	@echo "... src/motor_listener.o"
+	@echo "... src/motor_listener.i"
+	@echo "... src/motor_listener.s"
+	@echo "... src/send_cmd.o"
+	@echo "... src/send_cmd.i"
+	@echo "... src/send_cmd.s"
 .PHONY : help
 
 
