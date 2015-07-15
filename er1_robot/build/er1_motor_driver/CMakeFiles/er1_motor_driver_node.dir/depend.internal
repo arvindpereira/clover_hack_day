@@ -60,6 +60,8 @@ er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o
  /opt/ros/jade/include/ros/wall_timer_options.h
  /opt/ros/jade/include/rosconsole/macros_generated.h
 er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o
+ /home/arvind/clover_hack_day/er1_robot/devel/include/er1_motor_driver/Motors.h
+ /home/arvind/clover_hack_day/er1_robot/devel/include/er1_motor_driver/er.h
  /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/src/motor_listener.cpp
  /opt/ros/jade/include/XmlRpcDecl.h
  /opt/ros/jade/include/XmlRpcValue.h
@@ -117,4 +119,5 @@ er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o
  /opt/ros/jade/include/ros/wall_timer.h
  /opt/ros/jade/include/ros/wall_timer_options.h
  /opt/ros/jade/include/rosconsole/macros_generated.h
+ /opt/ros/jade/include/std_msgs/Float64.h
  /opt/ros/jade/include/std_msgs/String.h

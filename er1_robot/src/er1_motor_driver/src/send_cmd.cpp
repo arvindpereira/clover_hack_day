@@ -1,6 +1,7 @@
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 #include "std_msgs/Float64.h"
+#include "er1_motor_driver/Motors.h"
 
 #include <sstream>
 
@@ -13,19 +14,18 @@ int main(int argc, char *argv[])
 	// NodeHandle destructed will close down the node.
 	ros::NodeHandle n;
 
-	ros::Publisher send_pub = n.advertise<std_msgs::String>("motor_out", 1000);
+	ros::Publisher send_pub = n.advertise<er1_motor_driver::Motors>("motor_out", 1000);
 
 	ros::Rate loop_rate(10);
 
 	int count = 0;
 	while ( ros::ok() ) {
-		std_msgs::String msg;
+		er1_motor_driver::Motors msg;
 
-		std::stringstream ss;
-		ss << "hello world " << count;
-		msg.data = ss.str();
+		msg.x_vel = 1.0;
+		msg.a_vel = 0.0;
 
-		ROS_INFO("%s", msg.data.c_str());
+		ROS_INFO("Sending (%d): %.3f %.3f",count, msg.x_vel, msg.a_vel );
 
 		send_pub.publish(msg);
 
