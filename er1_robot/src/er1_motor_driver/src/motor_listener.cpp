@@ -1,5 +1,6 @@
 #include "ros/ros.h"
 #include "std_msgs/String.h"
+#include "er1_motor_driver/er.h"
 
 void chatterCallback( const std_msgs::String::ConstPtr& msg ) {
 	ROS_INFO("I heard: [%s]", msg->data.c_str());

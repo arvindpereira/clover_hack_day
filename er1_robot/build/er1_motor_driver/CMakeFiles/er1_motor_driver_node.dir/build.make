@@ -72,14 +72,39 @@ er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o.p
 
 er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o.provides.build: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o
 
+er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/flags.make
+er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o: /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/src/er.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/arvind/clover_hack_day/er1_robot/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o"
+	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o -c /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/src/er.cc
+
+er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/er1_motor_driver_node.dir/src/er.cc.i"
+	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/src/er.cc > CMakeFiles/er1_motor_driver_node.dir/src/er.cc.i
+
+er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/er1_motor_driver_node.dir/src/er.cc.s"
+	cd /home/arvind/clover_hack_day/er1_robot/build/er1_motor_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/src/er.cc -o CMakeFiles/er1_motor_driver_node.dir/src/er.cc.s
+
+er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o.requires:
+.PHONY : er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o.requires
+
+er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o.provides: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o.requires
+	$(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o.provides.build
+.PHONY : er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o.provides
+
+er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o.provides.build: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o
+
 # Object files for target er1_motor_driver_node
 er1_motor_driver_node_OBJECTS = \
-"CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o"
+"CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o" \
+"CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o"
 
 # External object files for target er1_motor_driver_node
 er1_motor_driver_node_EXTERNAL_OBJECTS =
 
 /home/arvind/clover_hack_day/er1_robot/devel/lib/er1_motor_driver/er1_motor_driver_node: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o
+/home/arvind/clover_hack_day/er1_robot/devel/lib/er1_motor_driver/er1_motor_driver_node: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o
 /home/arvind/clover_hack_day/er1_robot/devel/lib/er1_motor_driver/er1_motor_driver_node: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make
 /home/arvind/clover_hack_day/er1_robot/devel/lib/er1_motor_driver/er1_motor_driver_node: /opt/ros/jade/lib/libroscpp.so
 /home/arvind/clover_hack_day/er1_robot/devel/lib/er1_motor_driver/er1_motor_driver_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
@@ -107,6 +132,7 @@ er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build: /home/arvind/clover
 .PHONY : er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build
 
 er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/requires: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/motor_listener.cpp.o.requires
+er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/requires: er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o.requires
 .PHONY : er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/requires
 
 er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/clean:

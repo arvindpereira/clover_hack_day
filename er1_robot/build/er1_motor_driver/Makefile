@@ -575,6 +575,30 @@ src/add_two_ints_server.cpp.s:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/add_two_ints_server.dir/build.make er1_motor_driver/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
 .PHONY : src/add_two_ints_server.cpp.s
 
+src/er.o: src/er.cc.o
+.PHONY : src/er.o
+
+# target to build an object file
+src/er.cc.o:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.o
+.PHONY : src/er.cc.o
+
+src/er.i: src/er.cc.i
+.PHONY : src/er.i
+
+# target to preprocess a source file
+src/er.cc.i:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.i
+.PHONY : src/er.cc.i
+
+src/er.s: src/er.cc.s
+.PHONY : src/er.s
+
+# target to generate assembly for a file
+src/er.cc.s:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.s
+.PHONY : src/er.cc.s
+
 src/motor_listener.o: src/motor_listener.cpp.o
 .PHONY : src/motor_listener.o
 
@@ -669,6 +693,9 @@ help:
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
+	@echo "... src/er.o"
+	@echo "... src/er.i"
+	@echo "... src/er.s"
 	@echo "... src/motor_listener.o"
 	@echo "... src/motor_listener.i"
 	@echo "... src/motor_listener.s"

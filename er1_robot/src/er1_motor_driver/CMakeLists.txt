@@ -99,13 +99,9 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-## Declare a cpp library
-# add_library(er1_motor_driver
-#   src/${PROJECT_NAME}/er1_motor_driver.cpp
-# )
-
 ## Declare a cpp executable
- add_executable(er1_motor_driver_node src/motor_listener.cpp)
+ add_executable(er1_motor_driver_node src/motor_listener.cpp
+ src/er.cc)
  target_link_libraries(er1_motor_driver_node ${catkin_LIBRARIES})
  add_dependencies(er1_motor_driver_node er1_motor_driver_generate_messages_cpp)
 
