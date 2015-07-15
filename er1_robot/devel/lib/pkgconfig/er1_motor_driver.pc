@@ -3,6 +3,6 @@ prefix=/home/arvind/clover_hack_day/er1_robot/devel
 Name: er1_motor_driver
 Description: Description of er1_motor_driver
 Version: 0.0.0
-Cflags: -I/home/arvind/clover_hack_day/er1_robot/devel/include -I/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/include
+Cflags: -I/home/arvind/clover_hack_day/er1_robot/devel/include
 Libs: -L/home/arvind/clover_hack_day/er1_robot/devel/lib -ler1_motor_driver
 Requires: roscpp rospy std_msgs

@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
 
 	ros::NodeHandle n;
 
-	er = new ER("/dev/ttyUSB0");
+	er = new ER("/dev/ttyUSB1");
 	er->Setup();
 
 	ros::Subscriber sub = n.subscribe("motor_out", 1000, motorCommand );

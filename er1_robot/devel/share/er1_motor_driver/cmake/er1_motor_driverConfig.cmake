@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(er1_motor_driver_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/arvind/clover_hack_day/er1_robot/devel/include;/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/include " STREQUAL " ")
+if(NOT "/home/arvind/clover_hack_day/er1_robot/devel/include " STREQUAL " ")
   set(er1_motor_driver_INCLUDE_DIRS "")
-  set(_include_dirs "/home/arvind/clover_hack_day/er1_robot/devel/include;/home/arvind/clover_hack_day/er1_robot/src/er1_motor_driver/include")
+  set(_include_dirs "/home/arvind/clover_hack_day/er1_robot/devel/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/arvind/clover_hack_day/er1_robot/devel/lib;/home/arvind/clover_hack_day/er1_robot/devel/lib;/opt/ros/jade/lib)
+    foreach(path /home/arvind/clover_hack_day/er1_robot/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -145,7 +145,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(er1_motor_driver_EXPORTED_TARGETS "er1_motor_driver_generate_messages_cpp;er1_motor_driver_generate_messages_eus;er1_motor_driver_generate_messages_lisp;er1_motor_driver_generate_messages_py")
+set(er1_motor_driver_EXPORTED_TARGETS "er1_motor_driver_generate_messages_cpp;er1_motor_driver_generate_messages_lisp;er1_motor_driver_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${er1_motor_driver_EXPORTED_TARGETS})
   if(NOT TARGET ${t})

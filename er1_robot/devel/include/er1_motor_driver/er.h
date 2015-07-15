@@ -35,6 +35,7 @@
 
  #include <stdint.h>
  #include <cstdlib>
+ #include <string>
 
 #define ER_DEFAULT_PORT "/dev/ttyUSB0"
 #define ER_DEFAULT_LEFT_MOTOR 0
@@ -90,7 +91,7 @@
 class ER 
 {
   public:
-    ER();
+    ER( std::string port );
     // ER(ConfigFile* cf, int section);
 
     // public, so that it can be called from pthread cleanup function
@@ -114,7 +115,7 @@ class ER
     //serial connection
     int *_tc_num;
     int _fd; // device file descriptor
-    const char* _serial_port; // name of dev file
+    char _serial_port[100]; // name of dev file
     bool _fd_blocking;
     
     // methods for internal use
