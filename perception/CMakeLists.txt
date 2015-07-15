@@ -10,3 +10,6 @@ add_definitions(${PCL_DEFINITIONS})
 
 add_executable (openni_grabber openni_viewer_simple.cpp)
 target_link_libraries (openni_grabber ${PCL_LIBRARIES})
+
+add_executable (people_detection ground_based_people_detection.cpp)
+target_link_libraries (people_detection ${PCL_LIBRARIES})
