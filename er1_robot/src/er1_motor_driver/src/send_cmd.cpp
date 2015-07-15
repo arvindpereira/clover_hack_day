@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	while ( ros::ok() ) {
 		er1_motor_driver::Motors msg;
 
-		msg.x_vel = 1.0;
+		msg.x_vel = 0.0;
 		msg.a_vel = 0.0;
 
 		ROS_INFO("Sending (%d): %.3f %.3f",count, msg.x_vel, msg.a_vel );

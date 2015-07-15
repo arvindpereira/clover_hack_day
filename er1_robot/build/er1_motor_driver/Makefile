@@ -248,20 +248,6 @@ er1_motor_driver_generate_messages_cpp/fast:
 .PHONY : er1_motor_driver_generate_messages_cpp/fast
 
 # Convenience name for target.
-er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus.dir/rule:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus.dir/rule
-.PHONY : er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-er1_motor_driver_generate_messages_eus: er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus.dir/rule
-.PHONY : er1_motor_driver_generate_messages_eus
-
-# fast build rule for target.
-er1_motor_driver_generate_messages_eus/fast:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_eus.dir/build
-.PHONY : er1_motor_driver_generate_messages_eus/fast
-
-# Convenience name for target.
 er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_lisp.dir/rule:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_lisp.dir/rule
 .PHONY : er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_lisp.dir/rule
@@ -288,20 +274,6 @@ er1_motor_driver_generate_messages_py: er1_motor_driver/CMakeFiles/er1_motor_dri
 er1_motor_driver_generate_messages_py/fast:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_generate_messages_py.dir/build
 .PHONY : er1_motor_driver_generate_messages_py/fast
-
-# Convenience name for target.
-er1_motor_driver/CMakeFiles/er1_motor_driver_geneus.dir/rule:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/er1_motor_driver_geneus.dir/rule
-.PHONY : er1_motor_driver/CMakeFiles/er1_motor_driver_geneus.dir/rule
-
-# Convenience name for target.
-er1_motor_driver_geneus: er1_motor_driver/CMakeFiles/er1_motor_driver_geneus.dir/rule
-.PHONY : er1_motor_driver_geneus
-
-# fast build rule for target.
-er1_motor_driver_geneus/fast:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_geneus.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_geneus.dir/build
-.PHONY : er1_motor_driver_geneus/fast
 
 # Convenience name for target.
 er1_motor_driver/CMakeFiles/er1_motor_driver_genlisp.dir/rule:
@@ -374,20 +346,6 @@ roscpp_generate_messages_cpp/fast:
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
-er1_motor_driver/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : er1_motor_driver/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: er1_motor_driver/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/roscpp_generate_messages_eus.dir/build.make er1_motor_driver/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
-
-# Convenience name for target.
 er1_motor_driver/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : er1_motor_driver/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
@@ -430,20 +388,6 @@ rosgraph_msgs_generate_messages_cpp/fast:
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-er1_motor_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : er1_motor_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: er1_motor_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make er1_motor_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
 er1_motor_driver/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : er1_motor_driver/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
@@ -484,20 +428,6 @@ std_msgs_generate_messages_cpp: er1_motor_driver/CMakeFiles/std_msgs_generate_me
 std_msgs_generate_messages_cpp/fast:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make er1_motor_driver/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-er1_motor_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : er1_motor_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: er1_motor_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make er1_motor_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 er1_motor_driver/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
@@ -661,10 +591,8 @@ help:
 	@echo "... er1_motor_driver_gencpp"
 	@echo "... er1_motor_driver_generate_messages"
 	@echo "... er1_motor_driver_generate_messages_cpp"
-	@echo "... er1_motor_driver_generate_messages_eus"
 	@echo "... er1_motor_driver_generate_messages_lisp"
 	@echo "... er1_motor_driver_generate_messages_py"
-	@echo "... er1_motor_driver_geneus"
 	@echo "... er1_motor_driver_genlisp"
 	@echo "... er1_motor_driver_genpy"
 	@echo "... er1_motor_driver_node"
@@ -675,15 +603,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_eus"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"

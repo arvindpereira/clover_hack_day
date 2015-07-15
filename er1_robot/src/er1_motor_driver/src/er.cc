@@ -1,9 +1,8 @@
 /*
- *  Copyright (C) 2000-2003
- *		David Feil-Seifer
- *    
  *  Copyright (C) 2015
  *    Arvind Pereira
+ *  Copyright (C) 2000-2003
+ *		David Feil-Seifer
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -122,7 +121,7 @@ driver
 static void StopRobot(void* erdev);
 
 
-ER::ER()
+ER::ER( std::string serial_port)
 {
   // // zero ids, so that we'll know later which interfaces were requested
   // memset(&this->position_id, 0, sizeof(position_id));
@@ -148,6 +147,8 @@ ER::ER()
   _tc_num[0] = 2;
   _tc_num[1] = 0;
   _tc_num[2] = 185;
+  ROS_INFO("Serial port: %s",serial_port.c_str());
+  strcpy(_serial_port, serial_port.c_str());
   // this->_serial_port = cf->ReadString(section, "port", ER_DEFAULT_PORT);
   // _need_to_set_speed = true;
 	
@@ -437,7 +438,7 @@ ER::Setup()
   this->_odom_initialized = false;
 
   ROS_INFO("Evolution Robotics evolution_rcm connection initializing (%s)...\n", _serial_port);
-  fflush(stdout);
+  // fflush(stdout);
 
   // open it.  non-blocking at first, in case there's no robot
   if((this->_fd = open(_serial_port, O_RDWR | O_NONBLOCK, S_IRUSR | S_IWUSR )) < 0 )
