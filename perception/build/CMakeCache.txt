@@ -425,6 +425,12 @@ openni_grabber_BINARY_DIR:STATIC=/home/arvind/clover_hack_day/perception/build
 //Value Computed by CMake
 openni_grabber_SOURCE_DIR:STATIC=/home/arvind/clover_hack_day/perception
 
+//Value Computed by CMake
+people_detection_BINARY_DIR:STATIC=/home/arvind/clover_hack_day/perception/build
+
+//Value Computed by CMake
+people_detection_SOURCE_DIR:STATIC=/home/arvind/clover_hack_day/perception
+
 
 ########################
 # INTERNAL cache entries

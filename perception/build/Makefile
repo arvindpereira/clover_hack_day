@@ -111,6 +111,43 @@ openni_grabber/fast:
 	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/build
 .PHONY : openni_grabber/fast
 
+#=============================================================================
+# Target rules for targets named people_detection
+
+# Build rule for target.
+people_detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 people_detection
+.PHONY : people_detection
+
+# fast build rule for target.
+people_detection/fast:
+	$(MAKE) -f CMakeFiles/people_detection.dir/build.make CMakeFiles/people_detection.dir/build
+.PHONY : people_detection/fast
+
+ground_based_people_detection.o: ground_based_people_detection.cpp.o
+.PHONY : ground_based_people_detection.o
+
+# target to build an object file
+ground_based_people_detection.cpp.o:
+	$(MAKE) -f CMakeFiles/people_detection.dir/build.make CMakeFiles/people_detection.dir/ground_based_people_detection.cpp.o
+.PHONY : ground_based_people_detection.cpp.o
+
+ground_based_people_detection.i: ground_based_people_detection.cpp.i
+.PHONY : ground_based_people_detection.i
+
+# target to preprocess a source file
+ground_based_people_detection.cpp.i:
+	$(MAKE) -f CMakeFiles/people_detection.dir/build.make CMakeFiles/people_detection.dir/ground_based_people_detection.cpp.i
+.PHONY : ground_based_people_detection.cpp.i
+
+ground_based_people_detection.s: ground_based_people_detection.cpp.s
+.PHONY : ground_based_people_detection.s
+
+# target to generate assembly for a file
+ground_based_people_detection.cpp.s:
+	$(MAKE) -f CMakeFiles/people_detection.dir/build.make CMakeFiles/people_detection.dir/ground_based_people_detection.cpp.s
+.PHONY : ground_based_people_detection.cpp.s
+
 openni_viewer_simple.o: openni_viewer_simple.cpp.o
 .PHONY : openni_viewer_simple.o
 
@@ -143,7 +180,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... openni_grabber"
+	@echo "... people_detection"
 	@echo "... rebuild_cache"
+	@echo "... ground_based_people_detection.o"
+	@echo "... ground_based_people_detection.i"
+	@echo "... ground_based_people_detection.s"
 	@echo "... openni_viewer_simple.o"
 	@echo "... openni_viewer_simple.i"
 	@echo "... openni_viewer_simple.s"

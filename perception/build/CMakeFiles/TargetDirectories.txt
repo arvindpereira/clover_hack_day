@@ -1,1 +1,2 @@
 /home/arvind/clover_hack_day/perception/build/CMakeFiles/openni_grabber.dir
+/home/arvind/clover_hack_day/perception/build/CMakeFiles/people_detection.dir
