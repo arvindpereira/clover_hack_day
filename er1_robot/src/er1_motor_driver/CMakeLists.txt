@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 find_package(Boost REQUIRED COMPONENTS system)
+find_package(PCL 1.2 REQUIRED)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -97,7 +98,15 @@ catkin_package(
 # include_directories(include)
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  ${PCL_INCLUDE_DIRS}
 )
+
+link_directories(
+ ${catkin_LIBRARY_DIRS}
+ ${PCL_LIBRARY_DIRS}
+)
+
+add_definitions(${PCL_DEFINITIONS})
 
 ## Declare a cpp executable
  add_executable(er1_motor_driver_node src/motor_listener.cpp
@@ -109,6 +118,10 @@ include_directories(
  src/send_cmd.cpp)
  target_link_libraries(er1_motor_sender_node ${catkin_LIBRARIES})
  add_dependencies(er1_motor_sender_node er1_motor_driver_generate_messages_cpp)
+
+ add_executable(er1_find_people_and_move src/find_people_and_move.cpp)
+ target_link_libraries(er1_find_people_and_move ${catkin_LIBRARIES}  ${PCL_LIBRARIES})
+ add_dependencies(er1_find_people_and_move er1_motor_driver_generate_messages_cpp)
 
  # Service
  add_executable(add_two_ints_server src/add_two_ints_server.cpp)

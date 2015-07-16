@@ -293,6 +293,19 @@ add_two_ints_server/fast:
 .PHONY : add_two_ints_server/fast
 
 #=============================================================================
+# Target rules for targets named er1_find_people_and_move
+
+# Build rule for target.
+er1_find_people_and_move: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 er1_find_people_and_move
+.PHONY : er1_find_people_and_move
+
+# fast build rule for target.
+er1_find_people_and_move/fast:
+	$(MAKE) -f er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/build.make er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/build
+.PHONY : er1_find_people_and_move/fast
+
+#=============================================================================
 # Target rules for targets named er1_motor_driver_gencpp
 
 # Build rule for target.
@@ -550,6 +563,7 @@ help:
 	@echo "... _er1_motor_driver_generate_messages_check_deps_Motors"
 	@echo "... add_two_ints_client"
 	@echo "... add_two_ints_server"
+	@echo "... er1_find_people_and_move"
 	@echo "... er1_motor_driver_gencpp"
 	@echo "... er1_motor_driver_generate_messages"
 	@echo "... er1_motor_driver_generate_messages_cpp"

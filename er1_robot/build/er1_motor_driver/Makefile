@@ -206,6 +206,20 @@ add_two_ints_server/fast:
 .PHONY : add_two_ints_server/fast
 
 # Convenience name for target.
+er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/rule:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/rule
+.PHONY : er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/rule
+
+# Convenience name for target.
+er1_find_people_and_move: er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/rule
+.PHONY : er1_find_people_and_move
+
+# fast build rule for target.
+er1_find_people_and_move/fast:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/build.make er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/build
+.PHONY : er1_find_people_and_move/fast
+
+# Convenience name for target.
 er1_motor_driver/CMakeFiles/er1_motor_driver_gencpp.dir/rule:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f CMakeFiles/Makefile2 er1_motor_driver/CMakeFiles/er1_motor_driver_gencpp.dir/rule
 .PHONY : er1_motor_driver/CMakeFiles/er1_motor_driver_gencpp.dir/rule
@@ -529,6 +543,30 @@ src/er.cc.s:
 	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/build.make er1_motor_driver/CMakeFiles/er1_motor_driver_node.dir/src/er.cc.s
 .PHONY : src/er.cc.s
 
+src/find_people_and_move.o: src/find_people_and_move.cpp.o
+.PHONY : src/find_people_and_move.o
+
+# target to build an object file
+src/find_people_and_move.cpp.o:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/build.make er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/src/find_people_and_move.cpp.o
+.PHONY : src/find_people_and_move.cpp.o
+
+src/find_people_and_move.i: src/find_people_and_move.cpp.i
+.PHONY : src/find_people_and_move.i
+
+# target to preprocess a source file
+src/find_people_and_move.cpp.i:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/build.make er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/src/find_people_and_move.cpp.i
+.PHONY : src/find_people_and_move.cpp.i
+
+src/find_people_and_move.s: src/find_people_and_move.cpp.s
+.PHONY : src/find_people_and_move.s
+
+# target to generate assembly for a file
+src/find_people_and_move.cpp.s:
+	cd /home/arvind/clover_hack_day/er1_robot/build && $(MAKE) -f er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/build.make er1_motor_driver/CMakeFiles/er1_find_people_and_move.dir/src/find_people_and_move.cpp.s
+.PHONY : src/find_people_and_move.cpp.s
+
 src/motor_listener.o: src/motor_listener.cpp.o
 .PHONY : src/motor_listener.o
 
@@ -588,6 +626,7 @@ help:
 	@echo "... add_two_ints_client"
 	@echo "... add_two_ints_server"
 	@echo "... edit_cache"
+	@echo "... er1_find_people_and_move"
 	@echo "... er1_motor_driver_gencpp"
 	@echo "... er1_motor_driver_generate_messages"
 	@echo "... er1_motor_driver_generate_messages_cpp"
@@ -621,6 +660,9 @@ help:
 	@echo "... src/er.o"
 	@echo "... src/er.i"
 	@echo "... src/er.s"
+	@echo "... src/find_people_and_move.o"
+	@echo "... src/find_people_and_move.i"
+	@echo "... src/find_people_and_move.s"
 	@echo "... src/motor_listener.o"
 	@echo "... src/motor_listener.i"
 	@echo "... src/motor_listener.s"
