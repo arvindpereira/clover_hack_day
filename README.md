@@ -1,6 +1,6 @@
 # Robotic Self-checkout (hackathon project)
 
-This was one of the most fun hackathons I participated in. Built a line-busting robot using an ER-1, a Microsoft Kinect, and a Clover Mobile POS terminal. The robot would detect a line of people and then drive up to them offering them the option to do a self-checkout at the robot.
+This was one of the most fun hackathons I participated in. Built a line-busting robot using an ER-1, a Microsoft Kinect, and a Clover Mobile POS terminal. The robot would detect a line of people and then drive up to them offering them the option to do a self-checkout at the robot. The robot was using ROS, and perception was being done using PCL using the Kinect through an OpenNI driver.
 
 The hard part was building everything in a day. Cool thing was that it generally did what I was hoping it would.
 
